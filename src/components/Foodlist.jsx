@@ -12,7 +12,7 @@ export default function Foodlist({foods}) {
         foods.map((food) => {
           return (
             <div className='food-list-container' key={food.id}>
-              <img src={food.image} alt="" />
+              <img src={food.image} alt={food.title} />
               <p>{food.title}</p>
               <button onClick={() => handleKnowMore(food.id)}>Know more</button>
             </div>

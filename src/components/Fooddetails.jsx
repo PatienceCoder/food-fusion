@@ -20,7 +20,7 @@ export default function Fooddetails() {
     <div className='fooddetails-container'>
       {
         <div className='fulldetails-container'>
-           <img src={foodDetails.image} alt="" />
+           <img src={foodDetails.image} alt={foodDetails.title} />
            <p>Name : {foodDetails.title}</p>
            <p>Price : {foodDetails.pricePerServing}</p>
            <p>Time Required to Cook : ⌚{foodDetails.readyInMinutes} Minutes</p>

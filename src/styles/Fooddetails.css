@@ -1,0 +1,41 @@
+.fooddetails-container{
+    width: 60%;
+    margin: 120px auto;
+}
+.fulldetails-container{
+    display: flex;
+    flex-direction: column;
+}
+.fulldetails-container img{
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+}
+.fulldetails-container img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.fulldetails-container p{
+    color: #beff6c;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.fulldetails-container .instructions{
+    background-color: #fff;
+    color: black;
+}
+
+@media (max-width:768px) {
+    .fooddetails-container{
+        width: 80%;
+    }
+    .fulldetails-container img{
+        width: 350px;
+    }
+    .fulldetails-container p{
+        width: 100%;
+    }
+}

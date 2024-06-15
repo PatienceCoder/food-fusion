@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.food-list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.food-list-container img{
+    border-radius: 10px;
+    width: 400px;
+    transition: 0.3;
+}
+.food-list-container img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.food-list-container p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.food-list-container button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: #beff6c;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid #beff6c;
+}

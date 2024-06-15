@@ -1,0 +1,30 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 10px;
+}
+.body-container input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 20%;
+    margin: auto;
+}
+@media (max-width:768px) {
+    .body-container{
+        width: 90%;
+        margin: 120px auto;
+    }
+    .body-container input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .body-container input:focus{
+        border: 1px solid #beff6c;
+    }
+}
